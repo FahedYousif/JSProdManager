@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: system-ui;
+}
+
+.crud {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+.input {
+  width: calc(100% - 8px);
+  height: 30px;
+  outline: none;
+  border: none;
+  background: #dddddd;
+  margin: 4px 0;
+  border-radius: 4px;
+  padding: 4px;
+  color: #333333;
+}
+
+.button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: #2ead32;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 1rem;
+}
