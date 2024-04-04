@@ -49,7 +49,10 @@ body {
 #total::before {
   content: "Total: ";
 }
-
+hr.divider {
+  margin: 0.5rem 0;
+  border-top: 1px solid #00000063;
+}
 .button {
   width: 100%;
   height: 30px;
@@ -63,4 +66,33 @@ body {
 
 .button:hover {
   background: #69e181;
+}
+
+.btnSearch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnSearch button {
+  width: 45%;
+}
+
+table {
+  margin: 1rem 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #dddddd;
+}
+tr:nth-child(even) {
+  background-color: #dbdbdb;
 }
