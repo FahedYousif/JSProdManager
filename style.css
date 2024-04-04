@@ -30,6 +30,25 @@ body {
   padding: 4px;
   color: #333333;
 }
+.input:focus {
+  background: #e0e0e0;
+}
+.price {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+}
+#total {
+  background: #ff9800;
+  padding: 4px 10px;
+  line-height: 13px;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+#total::before {
+  content: "Total: ";
+}
 
 .button {
   width: 100%;
@@ -40,4 +59,8 @@ body {
   color: #fff;
   border-radius: 15px;
   font-size: 1rem;
+}
+
+.button:hover {
+  background: #69e181;
 }
