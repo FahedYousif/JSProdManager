@@ -39,13 +39,15 @@ body {
   gap: 0.5rem;
 }
 #total {
-  background: #ff9800;
   padding: 4px 10px;
   line-height: 13px;
   border-radius: 4px;
   margin: 4px 0;
 }
-
+:root {
+  --success-color: #5cd460;
+  --warning-color: #ff9800;
+}
 #total::before {
   content: "Total: ";
 }

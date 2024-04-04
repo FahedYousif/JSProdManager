@@ -18,10 +18,14 @@
         <input placeholder="Title" type="text" id="title" class="input" />
 
         <div class="price">
-          <input type="number" id="price" placeholder="Price" class="input" />
-          <input type="number" id="taxes" placeholder="Taxes" class="input" />
-          <input type="number" id="ads" placeholder="Ads" class="input" />
-          <input type="number" id="discount" placeholder="Discount" class="input"/>
+          <input onkeyup="getTotal()"
+          type="number" id="price" placeholder="Price" class="input" />
+          <input onkeyup="getTotal()"
+          type="number" id="taxes" placeholder="Taxes" class="input" />
+          <input onkeyup="getTotal()"
+          type="number" id="ads" placeholder="Ads" class="input" />
+          <input onkeyup="getTotal()"
+           type="number" id="discount" placeholder="Discount" class="input"/>
           <small id="total"></small>
         </div>
         <input placeholder="Count" type="number" id="count" class="input" />
