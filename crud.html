@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUDS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="crud">
+      <div class="head">
+        <h2>crud</h2>
+        <p>product management system</p>
+      </div>
+
+      <div class="inputs">
+        <input placeholder="Title" type="text" id="title" class="input" />
+
+        <div class="price">
+          <input type="number" id="price" placeholder="Price" class="input" />
+          <input type="number" id="taxes" placeholder="Taxes" class="input" />
+          <input type="number" id="ads" placeholder="Ads" class="input" />
+          <input
+            type="number"
+            id="discount"
+            placeholder="Discount"
+            class="input"
+          />
+          <small id="total"></small>
+        </div>
+
+        <input placeholder="Count" type="number" id="count" class="input" />
+        <input placeholder="Category" type="text" id="category" class="input" />
+
+        <button id="submit" class="button">Create</button>
+      </div>
+      <div class="outputs"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
