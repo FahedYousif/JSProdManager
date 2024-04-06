@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.head {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
 
 body {
   background: #f2f2f2;
@@ -19,6 +14,13 @@ body {
   margin: auto;
   padding: 0 0.5rem;
 }
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
 .input {
   width: calc(100% - 8px);
   height: 30px;
@@ -30,15 +32,19 @@ body {
   padding: 4px;
   color: #333333;
 }
+
 .input:focus {
   background: #e0e0e0;
 }
+
 .price {
   display: flex;
   flex-flow: row nowrap;
   gap: 0.5rem;
 }
+
 #total {
+  background: #ff9800;
   padding: 4px 10px;
   line-height: 13px;
   border-radius: 4px;
@@ -48,13 +54,11 @@ body {
   --success-color: #5cd460;
   --warning-color: #ff9800;
 }
+
 #total::before {
   content: "Total: ";
 }
-hr.divider {
-  margin: 0.5rem 0;
-  border-top: 1px solid #00000063;
-}
+
 .button {
   width: 100%;
   height: 30px;
@@ -65,7 +69,10 @@ hr.divider {
   border-radius: 15px;
   font-size: 1rem;
 }
-
+hr.divider {
+  margin: 0.5rem 0;
+  border-top: 1px solid #00000063;
+}
 .button:hover {
   background: #69e181;
 }
@@ -79,6 +86,34 @@ hr.divider {
   width: 45%;
 }
 
+.actionButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: #2ead32;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+.actionButton:hover {
+  background: #69e181;
+}
+
+.deleteAllButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: #2ead32;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.deleteAllButton:hover {
+  background: #69e181;
+}
 table {
   margin: 1rem 0;
   border-collapse: collapse;
